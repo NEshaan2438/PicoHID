@@ -12,5 +12,5 @@ switchInput.direction = digitalio.Direction.INPUT
 switchInput.pull = digitalio.Pull.DOWN
 
 while True:
-    print(switchInput.value)
+    print(not switchInput.value)
     time.sleep(0.75)
